@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import config from '../utils/config.js';
 import logger from '../utils/logger.js';
 
-logger.info('connecting to', config.MONGODB_URI);
+logger.info('connecting to MongoDB');
 
 const connectMongoDB = async () => {
   try {
